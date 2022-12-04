@@ -48,37 +48,4 @@ class Stealer:
                     messagebox.showinfo("Successfully Saved Pant in steal/pants/");self.__init__()
         except:messagebox.showerror("Invalid ID or Something went wrong")
 Stealer()
-'''
-class Upload:
-    def __init__(self):
-        self.clothe = Entry(window,font=('SeoulHangang',10),bg='#D9D9D9', fg='#020059',width=44,borderwidth=0)
-        self.clothe.place(x=51, y=203)
-        upload = Button(window, image=buttonupload,bg='#01001B',borderwidth=0, activebackground="#01001B",command=self.uploading)
-        upload.place(x=220,y=252)
-    def uploading(self):
-        clothe = self.clothe.get()
-        """
-        try:
-            r=requests.get(f"https://www.roblox.com/develop/groups/15789104?View=11")
-            if 'errors' in r.json():
-                messagebox.showerror("Error")
-            else:
-                XML = r.json()['location']
-                r2 = requests.get(XML)
-                JUIC = str(r2.content)
-        except:messagebox.showerror("Something went wrong")
-        """
-Upload()
-
-    
-
-#class Template:
-#    def login(roblosecurity):
-#        s = requests.Session
-#       payload = {
-#            'cookie': roblosecurity
-#       }
-#       res = s.post=('https://auth.roblox.com/v2/login')
-#Template()
-'''
 window.mainloop()
