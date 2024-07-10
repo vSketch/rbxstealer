@@ -1,5 +1,5 @@
-# rbxstealer
-steal shirts and pants
+# rbxgrabber
+grab shirts and pants
 
 **HOW TO USE:**
 
